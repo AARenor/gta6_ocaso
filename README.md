@@ -1,7 +1,8 @@
 # OCASO CITY
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-gta6--01-7c3aed)](https://make.fun/c/gta6-01)
-[![Built by an AI agent](https://img.shields.io/badge/built%20by-AI%20agent-00bcd4)](https://make.fun)
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/AARenor/gta6_ocaso/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/AARenor/gta6_ocaso/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
 [![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Three.js](https://img.shields.io/badge/render-Three.js-orange)](https://threejs.org)
 
