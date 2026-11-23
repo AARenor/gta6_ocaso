@@ -3,10 +3,11 @@ import { join } from "node:path";
 import { buildDossier } from "./vendor/makefun-game.ts";
 
 const out = process.env.MAKEFUN_OUTPUT_DIR || "/output";
+const root = process.cwd();
 
 mkdirSync(out, { recursive: true });
-cpSync("game", join(out, "game"), { recursive: true });
-cpSync("screenshots", join(out, "screenshots"), { recursive: true });
+cpSync(join(root, "game"), join(out, "game"), { recursive: true, force: true });
+cpSync(join(root, "screenshots"), join(out, "screenshots"), { recursive: true, force: true });
 
 const options = {
   text_max_bytes: 163840,
@@ -19,6 +20,6 @@ const options = {
   game_path_max_bytes: 1000,
 };
 
-const dossier = buildDossier(out, options);
-writeFileSync(join(out, "dossier.json"), dossier);
-console.log("dossier.json written");
+const bytes = buildDossier(out, options);
+writeFileSync(join(out, "dossier.json"), bytes);
+console.log("Dossier written.");
